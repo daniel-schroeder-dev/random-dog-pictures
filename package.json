@@ -1,0 +1,24 @@
+{
+  "name": "random-dog-pictures",
+  "version": "1.0.0",
+  "description": "Simple app that allows a user to click a button and get a random dog image.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniel-schroeder-dev/random-dog-pictures.git"
+  },
+  "keywords": [
+    "ajax",
+    "javascript",
+    "xmlhttprequest"
+  ],
+  "author": "Daniel Schroeder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniel-schroeder-dev/random-dog-pictures/issues"
+  },
+  "homepage": "https://github.com/daniel-schroeder-dev/random-dog-pictures#readme"
+}
