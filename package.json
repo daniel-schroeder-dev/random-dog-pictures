@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/daniel-schroeder-dev/random-dog-pictures/issues"
   },
-  "homepage": "https://github.com/daniel-schroeder-dev/random-dog-pictures#readme"
+  "homepage": "https://github.com/daniel-schroeder-dev/random-dog-pictures#readme",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
 }
