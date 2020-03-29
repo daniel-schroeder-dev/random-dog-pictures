@@ -46,6 +46,10 @@ button {
   font-size: 16px;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 /*
   Taken from: https://codepen.io/Hunter377/pen/LGKKWV;
 */

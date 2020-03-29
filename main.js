@@ -1,10 +1,18 @@
 const button = document.querySelector('button');
 const img = document.querySelector('img');
+const figure = document.querySelector('figure');
+const loadingIcon = document.querySelector('.annoying-dog');
 
 button.addEventListener('click', () => {
+  figure.classList.add('hidden');
+  loadingIcon.classList.remove('hidden');
   getRandomDogImage()
     .then(imgUrl => {
       img.src = imgUrl;
+      setTimeout(() => {
+        loadingIcon.classList.add('hidden');
+        figure.classList.remove('hidden');
+      }, 1200);
     })
     .catch(console.error);
 });
